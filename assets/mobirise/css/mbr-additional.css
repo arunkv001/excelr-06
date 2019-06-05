@@ -1354,7 +1354,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #a2a2a2;
 }
 .cid-rrWIqdkkoP button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -5657,6 +5657,25 @@ body {
 }
 .cid-rsuNCFmR2B .counter-container ul li {
   margin-bottom: 1rem;
+  list-style: none;
+}
+.cid-rsuNCFmR2B .counter-container ul li:before {
+  font-family: MobiriseIcons !important;
+  content: '\e966';
+  position: absolute;
+  left: 0px;
+  padding-top: 2px;
+  display: inline-block;
+  text-align: center;
+  margin: 4px 10px;
+  line-height: 10px;
+  transition: all .2s;
+  width: 16px;
+  height: 16px;
+  font-size: 16px !important;
+  font-weight: 500;
+  background: none;
+  color: #188ef4;
 }
 @media (max-width: 991px) {
   .cid-rsuNCFmR2B .main-row {
